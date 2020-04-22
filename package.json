@@ -49,12 +49,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-jpush.git"
+    "url": "git+https://github.com/wrgxian/egg-jpush.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/wrgxian/egg-jpush/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-jpush#readme",
+  "homepage": "https://github.com/wrgxian/egg-jpush#readme",
   "author": "wrg",
   "license": "MIT"
 }

@@ -28,7 +28,7 @@ egg plugin for [jpush](https://github.com/jpush/jpush-api-nodejs-client)
 ## Install
 
 ```bash
-$ npm i egg-jpush --save
+$ npm i egg-jpush-demo --save
 ```
 
 ## Dependencies
