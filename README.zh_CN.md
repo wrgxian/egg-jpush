@@ -51,7 +51,7 @@ egg-jpush 版本 | egg 1.x
 // config/plugin.js
 exports.jpush = {
   enable: true,
-  package: 'egg-jpush',
+  package: 'egg-jpush-demo',
 };
 ```
 

@@ -41,7 +41,7 @@ $ npm i egg-jpush-demo --save
 // {app_root}/config/plugin.js
 exports.jpush = {
   enable: true,
-  package: 'egg-jpush',
+  package: 'egg-jpush-demo',
 };
 ```
 
