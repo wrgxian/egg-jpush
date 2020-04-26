@@ -1,60 +1,25 @@
 {
-  "name": "egg-jpush-demo",
-  "version": "1.0.3",
-  "description": "jpush for egg",
-  "eggPlugin": {
-    "name": "jpush"
-  },
-  "keywords": [
-    "egg",
-    "eggPlugin",
-    "egg-plugin",
-    "jpush",
-    "jiguang"
-  ],
-  "dependencies": {
-    "jpush-sdk": "^3.4.5"
-  },
-  "devDependencies": {
-    "autod": "^3.0.0",
-    "autod-egg": "^1.0.0",
-    "egg": "^2.0.0",
-    "egg-bin": "^4.3.0",
-    "egg-ci": "^1.8.0",
-    "egg-mock": "^3.13.0",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^5.1.0",
-    "webstorm-disable-index": "^1.2.0"
-  },
-  "engines": {
-    "node": ">=8.0.0"
-  },
+  "name": "egg-jpush",
+  "version": "1.0.0",
+  "description": "[![NPM version][npm-image]][npm-url] [![build status][travis-image]][travis-url] [![Test coverage][codecov-image]][codecov-url] [![David deps][david-image]][david-url] [![Known Vulnerabilities][snyk-image]][snyk-url] [![npm download][download-image]][download-url]",
+  "main": "index.js",
   "scripts": {
-    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
-    "test-local": "egg-bin test",
-    "cov": "egg-bin cov",
-    "lint": "eslint .",
-    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
-    "pkgfiles": "egg-bin pkgfiles",
-    "autod": "autod"
-  },
-  "files": [
-    "app.js",
-    "agent.js",
-    "config",
-    "lib"
-  ],
-  "ci": {
-    "version": "8, 9"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wrgxian/egg-jpush.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/wrgxian/egg-jpush/issues"
   },
   "homepage": "https://github.com/wrgxian/egg-jpush#readme",
-  "author": "wrg",
-  "license": "MIT"
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
